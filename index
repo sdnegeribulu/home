@@ -1,56 +1,38 @@
-html
+
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Website Pertama Saya</title>
+  <title>SD Negeri Bulu</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #6C63FF, #42A5F5);
-      color: #fff;
-      height: 100vh;
+      font-family: sans-serif;
+      background: #f0f0f0;
       display: flex;
-      flex-direction: column;
-      align-items: center;
       justify-content: center;
-      text-align: center;
-      padding: 20px;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
     }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5em;
-    }
-
-    p {
-      font-size: 1.2rem;
-      color: #e0e0e0;
-    }
-
     .card {
-      background-color: rgba(255, 255, 255, 0.1);
+      background: white;
       padding: 30px;
       border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      backdrop-filter: blur(8px);
-    }
-
-    footer {
-      position: absolute;
-      bottom: 10px;
-      font-size: 0.9rem;
-      color: #ccc;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+}
+    h1 {
+      margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
   <div class="card">
-    <h1>Halo, Dunia!</h1>
+    <h1>Selamat Datang di SD Negeri Bulu</h1>
+    <p>Website resmi sekolah</p>
+  </div>
+</body>
+</html>
+```
